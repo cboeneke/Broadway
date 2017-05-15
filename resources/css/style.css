@@ -1,6 +1,7 @@
 * {
   text-align: center;
   font-family: Verdana, sans-serif;
+
 }
 
 
@@ -8,8 +9,12 @@
 .top{
 
   background-image: url("../images/the-flatiron-building.png");
-  background-size: auto;
-  background-position: center;
+}
+
+@media screen and (min-width: 1831px) {
+  .top, .middle {
+    background-size: 100%;
+  }
 }
 
 .head{
